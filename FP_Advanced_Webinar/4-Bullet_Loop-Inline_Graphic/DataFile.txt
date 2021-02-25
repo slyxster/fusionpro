@@ -1,0 +1,6 @@
+Destination	Point01	Point02	Point03	Point04	Point05	Point06	Point07	Point08	SigName	Title	Firstname	Lastname	Addr1	Addr2	City	State	Zip	Plus4
+Moscow	Red Square	St. Basil's Cathedral	Lenin's Tomb	The Kremlin	Gelendzhik	Lake Nero		KGB	Ronald McDonald	Senior Travel Coordinator	Donna	Smith	2399 Woodman Lane		Mohilef	AZ	78966	4331
+London	Tower Bridge	Parliment	London Eye	British Nat'l Museum	Westminster Abbey		Hyde Park	Camden Lockes	Calima Kean	Travel Coordinator	Rocco	Baldierri	35 55th Street	Apt 23	New York	NY	1234	4999
+Oahu	Waikiki Beach	Diamond Head	Hanauma Bay	Pearl Harbor	China Man's Hat	Pali Lookout	Kaena Point	North Shore	Jeffery McHann	Travel Coordinator	Francine	Willaby	765 Naismith Road	Apt. D	Seattle	WA	86544	2343
+New York City	Times Square	Rockafeller Center	Broadway	Empire State Building	Central Park				DW Kellet	Chief Travel Specialist	Jimmy	McDoodle	6551 Houndstooth Way		Hooverville	IL	60554	2434
+Oahu	SUP Diamond Head	Stand-Up Paddle Waikiki	Go Surfing	Shred the Gnar	Loco Moco	Pick a Pineapple		Get a plate lunch	Jeffery McHann	Travel Coordinator	Francine	Willaby	765 Naismith Road	Apt. D	Seattle	WA	86544	2343

@@ -1,0 +1,4 @@
+Chart Title	Chart Objective	value title 1	value title 2	value title 3	value 1	value 2	value 3
+Organizational Expenses	"$100,000 "	Program Expenses	Management & General Service Expenses	Research & Development	25	25	50
+The Chart Title	Description of the chart	Really Important stuff	Things we have to buy	Frivilous Spending	40	35	25
+Budget Spending Structure	Balance	Defense Spending	Public Works	Social Services	61	27	12

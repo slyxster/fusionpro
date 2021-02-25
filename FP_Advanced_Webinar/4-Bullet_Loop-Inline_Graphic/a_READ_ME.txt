@@ -1,0 +1,1 @@
+Open the PDF called "T2TLetter_LoopWsig.pdf"

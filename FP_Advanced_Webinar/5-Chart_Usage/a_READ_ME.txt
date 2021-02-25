@@ -1,0 +1,1 @@
+Open the PDF called "ChartExample.pdf"

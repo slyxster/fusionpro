@@ -1,0 +1,651 @@
+CustomerNum,Casino,Visits2010,AvgAmountPerStay,PreferredGame
+5958381349,Pirate's Booty,1,10,Roulette
+8426258249,Golden Pharoah,8,41,Craps
+4080071037,Lion's Den,14,79,Roulette
+0931498000,Tennessee Tom's,7,12,Roulette
+3319487852,The Pallasadium,5,83,Slots
+1381135091,Pirate's Booty,1,54,Poker
+0861018212,Pirate's Booty,12,61,Blackjack
+1372876408,Lion's Den,1,10,Poker
+2069132544,Lion's Den,11,79,Poker
+6482215972,Lion's Den,12,13,Poker
+0928546421,Montebella,2,36,Craps
+9399652248,Montebella,14,39,Roulette
+0083664377,The Pallasadium,11,55,Blackjack
+4715857997,Saddleman's Ranch,8,35,Poker
+0838064933,Pirate's Booty,7,34,Craps
+6807700743,Saddleman's Ranch,7,73,Blackjack
+9714613609,Golden Pharoah,9,19,Craps
+4546105680,Golden Pharoah,1,57,Slots
+1467898849,The Pallasadium,13,70,Craps
+2145886976,Tennessee Tom's,11,26,Blackjack
+1586646918,Pirate's Booty,11,17,Craps
+6627534072,Slappy O'Mulligans,4,80,Blackjack
+6395029571,Montebella,2,39,Poker
+6314734859,The Pallasadium,8,43,Blackjack
+0946813764,Saddleman's Ranch,6,23,Blackjack
+2576165278,Pirate's Booty,5,39,Roulette
+7024773043,Saddleman's Ranch,5,54,Craps
+8797631327,Montebella,15,54,Slots
+5255990981,Saddleman's Ranch,6,48,Blackjack
+9837469753,Slappy O'Mulligans,2,51,Roulette
+2244137940,Golden Pharoah,1,36,Craps
+4384599853,Pirate's Booty,11,98,Blackjack
+9047516907,Slappy O'Mulligans,5,26,Poker
+0513067722,Slappy O'Mulligans,13,23,Blackjack
+7959779666,Tennessee Tom's,10,55,Roulette
+2338117767,Pirate's Booty,15,60,Blackjack
+2402141096,Saddleman's Ranch,11,82,Poker
+0789638643,Slappy O'Mulligans,15,22,Blackjack
+7273004414,Slappy O'Mulligans,4,44,Poker
+6225325271,Saddleman's Ranch,6,20,Craps
+5376892417,Pirate's Booty,5,95,Blackjack
+9883911594,Golden Pharoah,3,61,Slots
+8405065129,Slappy O'Mulligans,13,24,Craps
+2359437184,The Pallasadium,12,90,Poker
+2268079543,The Pallasadium,2,45,Blackjack
+3262083403,Lion's Den,6,37,Craps
+9545365952,Golden Pharoah,1,23,Slots
+7176584257,Slappy O'Mulligans,6,90,Slots
+6193533704,The Pallasadium,10,70,Slots
+3962748389,The Pallasadium,4,51,Roulette
+6668299888,Montebella,15,79,Blackjack
+2840830163,Montebella,14,68,Craps
+5136897016,The Pallasadium,2,70,Slots
+9315132781,Lion's Den,6,93,Blackjack
+2448735894,Tennessee Tom's,10,76,Blackjack
+1731797399,Montebella,7,78,Blackjack
+7163530410,Slappy O'Mulligans,14,57,Craps
+5073625084,Montebella,12,34,Roulette
+7025527395,Slappy O'Mulligans,15,11,Blackjack
+6716768423,Golden Pharoah,1,71,Craps
+9784867928,The Pallasadium,8,13,Blackjack
+1241749801,The Pallasadium,8,72,Roulette
+4516691089,Golden Pharoah,13,19,Craps
+0462221068,The Pallasadium,2,55,Craps
+4857785479,Pirate's Booty,5,57,Roulette
+0972562411,Lion's Den,3,20,Roulette
+7782439953,Saddleman's Ranch,12,59,Blackjack
+0880282286,Montebella,5,14,Craps
+9169616476,The Pallasadium,4,62,Roulette
+9759001006,Golden Pharoah,4,22,Blackjack
+0141382613,Saddleman's Ranch,5,51,Roulette
+6562503145,The Pallasadium,12,35,Craps
+3212458851,Golden Pharoah,12,17,Poker
+2500555124,Lion's Den,1,75,Craps
+1236623120,Lion's Den,8,75,Slots
+9877406453,Saddleman's Ranch,14,82,Blackjack
+2839629658,The Pallasadium,7,53,Slots
+4872092284,Pirate's Booty,5,20,Slots
+0318140780,The Pallasadium,11,89,Slots
+6463320181,Golden Pharoah,8,84,Poker
+1062278661,Golden Pharoah,9,91,Roulette
+7034543940,Golden Pharoah,6,90,Poker
+0907837360,The Pallasadium,14,54,Slots
+9581492220,Montebella,3,64,Poker
+3150110119,Tennessee Tom's,14,28,Roulette
+3644939804,The Pallasadium,9,21,Poker
+6693140546,Tennessee Tom's,14,13,Poker
+7434141102,The Pallasadium,2,43,Blackjack
+2098612058,Montebella,6,16,Slots
+0078528184,The Pallasadium,6,85,Roulette
+3618165439,Slappy O'Mulligans,8,29,Roulette
+9063673812,Lion's Den,3,15,Craps
+9266836597,The Pallasadium,7,74,Blackjack
+4279028532,Saddleman's Ranch,3,100,Blackjack
+6803838200,Pirate's Booty,1,99,Craps
+3925814303,Tennessee Tom's,14,26,Craps
+6040621888,The Pallasadium,3,24,Craps
+0302139394,Tennessee Tom's,5,76,Slots
+2228325948,Pirate's Booty,10,33,Craps
+0604812425,Pirate's Booty,6,39,Roulette
+5139131302,Golden Pharoah,12,18,Poker
+7346755984,Montebella,4,81,Blackjack
+0413219731,Lion's Den,5,45,Craps
+8497795538,The Pallasadium,4,21,Blackjack
+2890141043,Golden Pharoah,1,37,Roulette
+1922958882,Slappy O'Mulligans,7,42,Roulette
+0216619832,Tennessee Tom's,15,63,Roulette
+6227891529,Pirate's Booty,12,87,Blackjack
+5240846956,Slappy O'Mulligans,5,59,Craps
+7853040118,Lion's Den,5,41,Poker
+4240348126,The Pallasadium,9,86,Slots
+4325192521,Lion's Den,11,96,Slots
+7028167126,The Pallasadium,2,41,Roulette
+2409038131,Golden Pharoah,13,68,Poker
+6339290499,Lion's Den,3,68,Blackjack
+8705098952,Saddleman's Ranch,5,29,Roulette
+7078390809,Montebella,14,57,Craps
+5289314298,Saddleman's Ranch,7,67,Craps
+5414167725,Slappy O'Mulligans,12,45,Slots
+7127078202,The Pallasadium,3,30,Poker
+2917906799,Tennessee Tom's,8,74,Blackjack
+5131855494,Tennessee Tom's,3,63,Blackjack
+6592132904,Montebella,14,14,Blackjack
+5650753971,The Pallasadium,9,53,Roulette
+9056613438,Montebella,13,17,Slots
+7330125016,Golden Pharoah,11,36,Roulette
+0595212284,Lion's Den,7,56,Poker
+6526035063,Pirate's Booty,15,62,Blackjack
+9430214680,Golden Pharoah,11,62,Craps
+7554444534,Golden Pharoah,1,68,Roulette
+6326108108,Slappy O'Mulligans,8,95,Blackjack
+6160989485,The Pallasadium,8,81,Slots
+1707416768,Saddleman's Ranch,15,11,Roulette
+5410953023,Saddleman's Ranch,2,29,Poker
+9345143400,Lion's Den,3,90,Poker
+8178216241,Slappy O'Mulligans,7,64,Poker
+8875107226,The Pallasadium,15,89,Poker
+0187660432,The Pallasadium,2,15,Slots
+6429826779,Pirate's Booty,1,26,Poker
+3297617518,Lion's Den,9,60,Blackjack
+9256178460,The Pallasadium,2,55,Craps
+2845084757,Pirate's Booty,8,54,Blackjack
+1247619646,Slappy O'Mulligans,9,34,Craps
+2100402192,The Pallasadium,9,45,Slots
+0790246021,Lion's Den,5,98,Poker
+7929638537,The Pallasadium,10,14,Craps
+8424099311,Lion's Den,10,35,Poker
+7497057941,Pirate's Booty,15,35,Poker
+0715492279,Saddleman's Ranch,7,97,Blackjack
+0252792503,Montebella,10,50,Roulette
+9891450414,The Pallasadium,7,33,Poker
+3360941016,Lion's Den,4,26,Roulette
+8615260044,Tennessee Tom's,2,40,Slots
+3504804414,Pirate's Booty,5,90,Craps
+1850921564,Golden Pharoah,5,46,Blackjack
+3766228084,The Pallasadium,5,40,Slots
+5917982809,The Pallasadium,9,72,Blackjack
+4691641075,Lion's Den,2,55,Blackjack
+4061705517,Lion's Den,11,43,Poker
+9799791795,Saddleman's Ranch,10,79,Poker
+5344704668,Golden Pharoah,14,72,Poker
+9456930742,The Pallasadium,7,83,Poker
+7148548273,Slappy O'Mulligans,2,79,Blackjack
+9737015934,Tennessee Tom's,5,29,Blackjack
+5610124794,Lion's Den,1,67,Slots
+1655288805,Tennessee Tom's,2,91,Craps
+8548796448,Tennessee Tom's,12,36,Slots
+7376743350,Saddleman's Ranch,2,60,Slots
+0079763442,Slappy O'Mulligans,11,32,Craps
+5387055909,Montebella,11,24,Craps
+3141711986,The Pallasadium,9,93,Slots
+9403452624,Montebella,4,75,Craps
+3681506507,Saddleman's Ranch,1,38,Roulette
+1255493223,Tennessee Tom's,8,44,Slots
+8826001816,Slappy O'Mulligans,6,33,Blackjack
+1609503858,Montebella,8,15,Slots
+5773375404,Saddleman's Ranch,6,95,Roulette
+2090236599,Tennessee Tom's,5,57,Craps
+0345664347,Saddleman's Ranch,15,25,Roulette
+2355289421,Saddleman's Ranch,10,43,Poker
+9299946671,Lion's Den,10,32,Poker
+4962411519,Golden Pharoah,10,15,Blackjack
+5966126647,Tennessee Tom's,6,82,Slots
+2002345243,Pirate's Booty,13,18,Poker
+5551546862,Tennessee Tom's,12,40,Roulette
+1107463961,Pirate's Booty,9,39,Craps
+4232035679,Slappy O'Mulligans,1,56,Craps
+3863831613,The Pallasadium,7,29,Craps
+8673249912,The Pallasadium,8,79,Roulette
+1932198072,Slappy O'Mulligans,6,38,Slots
+2203385790,Tennessee Tom's,6,33,Poker
+4862182397,Saddleman's Ranch,7,28,Roulette
+5029627106,Tennessee Tom's,10,35,Slots
+1447624069,Lion's Den,7,56,Poker
+5358212550,The Pallasadium,8,11,Roulette
+6138953922,Montebella,12,49,Poker
+2060960912,Saddleman's Ranch,2,40,Slots
+8947526227,Tennessee Tom's,10,83,Roulette
+5929642228,Montebella,9,74,Slots
+0391949974,The Pallasadium,1,31,Blackjack
+8747410003,Saddleman's Ranch,1,76,Slots
+9968790977,Montebella,5,24,Poker
+7407839246,Montebella,11,36,Craps
+4347825577,Lion's Den,11,86,Roulette
+3375048401,Montebella,12,32,Poker
+9401520570,Tennessee Tom's,2,40,Poker
+9246040706,Golden Pharoah,10,68,Slots
+1706851523,Tennessee Tom's,12,36,Poker
+0187409465,Saddleman's Ranch,6,73,Craps
+4894749678,Saddleman's Ranch,2,67,Slots
+7169204885,Slappy O'Mulligans,3,75,Poker
+8458764408,Tennessee Tom's,8,89,Craps
+1711535565,Pirate's Booty,6,46,Slots
+5054800374,Pirate's Booty,14,17,Slots
+7802479279,Saddleman's Ranch,1,92,Poker
+9200128701,Lion's Den,7,34,Blackjack
+6780465290,Saddleman's Ranch,10,69,Craps
+7993238147,Golden Pharoah,5,65,Slots
+4460964538,Lion's Den,7,61,Slots
+7569646281,Slappy O'Mulligans,14,26,Blackjack
+1488325257,The Pallasadium,4,63,Craps
+6944561477,Tennessee Tom's,8,65,Craps
+8256070954,Slappy O'Mulligans,1,54,Craps
+1189841743,Montebella,7,45,Roulette
+5294306281,Tennessee Tom's,6,77,Slots
+5655442775,Saddleman's Ranch,11,90,Poker
+8068595009,The Pallasadium,10,80,Poker
+5897140503,Pirate's Booty,6,54,Blackjack
+2801379844,Golden Pharoah,11,26,Slots
+9640027430,The Pallasadium,13,31,Poker
+3717506553,Saddleman's Ranch,1,37,Roulette
+8912369395,The Pallasadium,13,28,Slots
+6805072609,Slappy O'Mulligans,5,18,Roulette
+0665445569,Tennessee Tom's,7,44,Slots
+7334287769,Lion's Den,15,91,Roulette
+8626064211,Saddleman's Ranch,10,47,Roulette
+8331733680,Lion's Den,4,52,Slots
+5166095375,Pirate's Booty,6,54,Craps
+9549208458,Golden Pharoah,12,62,Craps
+8971011491,Golden Pharoah,12,13,Blackjack
+5187878730,Montebella,7,99,Craps
+7985186585,Montebella,2,48,Blackjack
+2420598464,Pirate's Booty,1,12,Craps
+9455864324,Pirate's Booty,14,47,Craps
+2001195178,Golden Pharoah,1,74,Craps
+4112742633,Golden Pharoah,1,96,Roulette
+7680390934,The Pallasadium,14,57,Blackjack
+6873734615,Pirate's Booty,6,35,Roulette
+2474646560,Golden Pharoah,14,97,Slots
+3871446779,Pirate's Booty,12,97,Roulette
+1744287169,Montebella,14,28,Roulette
+8254871457,Montebella,13,69,Slots
+3562916896,Golden Pharoah,12,37,Roulette
+5458938123,Tennessee Tom's,5,64,Poker
+7191691720,The Pallasadium,12,11,Craps
+0736544552,Slappy O'Mulligans,4,44,Slots
+6493037215,Montebella,9,50,Craps
+1436954988,Montebella,15,44,Roulette
+2407823008,Slappy O'Mulligans,9,79,Slots
+9535986372,Saddleman's Ranch,12,10,Craps
+0449210941,Pirate's Booty,5,34,Roulette
+6204904682,Saddleman's Ranch,10,100,Slots
+0078142863,Golden Pharoah,10,85,Roulette
+1905798877,Montebella,2,19,Blackjack
+2114100593,Golden Pharoah,10,53,Roulette
+0076075252,Tennessee Tom's,6,28,Roulette
+2489690095,Slappy O'Mulligans,1,55,Blackjack
+1063684406,Tennessee Tom's,2,33,Slots
+3536007044,Tennessee Tom's,1,81,Blackjack
+9075725476,Tennessee Tom's,7,31,Craps
+2748635889,The Pallasadium,10,29,Blackjack
+7587448762,Pirate's Booty,4,60,Slots
+2634154218,Golden Pharoah,13,38,Roulette
+1340984380,Pirate's Booty,10,95,Poker
+7608747808,Montebella,5,70,Craps
+9853981505,Slappy O'Mulligans,1,55,Poker
+9119440873,Montebella,6,63,Slots
+8606020026,Saddleman's Ranch,10,80,Roulette
+8736327527,Tennessee Tom's,13,24,Craps
+1920326420,Saddleman's Ranch,14,24,Poker
+6377824858,The Pallasadium,9,95,Slots
+1760325576,Tennessee Tom's,10,41,Slots
+1841152389,Lion's Den,1,21,Blackjack
+1785629054,Pirate's Booty,11,64,Craps
+5493566329,Pirate's Booty,12,87,Poker
+3403869461,Golden Pharoah,2,54,Craps
+8630353687,The Pallasadium,5,93,Craps
+6562572953,The Pallasadium,14,75,Slots
+9895834909,Montebella,2,71,Blackjack
+9166254108,Lion's Den,7,46,Craps
+3580321840,Golden Pharoah,3,91,Slots
+1374990981,Lion's Den,15,50,Roulette
+1132438541,The Pallasadium,13,84,Poker
+6760931024,Montebella,8,57,Roulette
+0719139564,Saddleman's Ranch,3,95,Blackjack
+8189543306,Pirate's Booty,4,88,Poker
+9035793896,Saddleman's Ranch,11,86,Craps
+1149655809,Tennessee Tom's,12,47,Roulette
+0791501575,The Pallasadium,14,15,Roulette
+8351326381,Slappy O'Mulligans,3,51,Craps
+1624937758,Lion's Den,2,59,Roulette
+1877397280,Golden Pharoah,14,65,Blackjack
+9251042912,Tennessee Tom's,11,58,Craps
+2892937632,Slappy O'Mulligans,12,50,Slots
+1247638549,Slappy O'Mulligans,6,40,Slots
+4480457087,Pirate's Booty,11,22,Poker
+8050609284,Slappy O'Mulligans,1,68,Craps
+1694483304,Saddleman's Ranch,13,61,Roulette
+3815200512,The Pallasadium,9,89,Craps
+4219167781,Saddleman's Ranch,2,77,Craps
+8606727266,Pirate's Booty,4,15,Slots
+7230747407,Montebella,4,54,Poker
+8847319564,Tennessee Tom's,7,51,Blackjack
+1041160133,Lion's Den,7,47,Blackjack
+5004674507,Tennessee Tom's,5,88,Roulette
+3133456747,Lion's Den,12,53,Poker
+9811146301,The Pallasadium,15,10,Slots
+3930121764,Montebella,7,70,Poker
+0752791596,Golden Pharoah,7,56,Blackjack
+0966671851,The Pallasadium,15,31,Craps
+5488248175,The Pallasadium,2,78,Blackjack
+7214390920,Tennessee Tom's,1,53,Slots
+7530406401,Slappy O'Mulligans,8,33,Slots
+9381126861,Montebella,7,86,Roulette
+6290567482,Tennessee Tom's,14,18,Blackjack
+4558309102,Tennessee Tom's,2,77,Slots
+4370202886,Pirate's Booty,5,69,Slots
+0226541124,Pirate's Booty,4,95,Roulette
+6081581351,Saddleman's Ranch,2,45,Slots
+9589371711,Montebella,4,85,Slots
+5570085470,The Pallasadium,15,60,Blackjack
+0305221938,Montebella,11,28,Poker
+1780588832,Pirate's Booty,7,78,Poker
+7339219013,Lion's Den,13,52,Roulette
+2296488030,Lion's Den,13,50,Roulette
+7651485323,Slappy O'Mulligans,5,74,Blackjack
+0253820180,Golden Pharoah,13,95,Poker
+5581677444,Golden Pharoah,2,84,Blackjack
+1757206494,Montebella,4,78,Craps
+0003121536,Lion's Den,7,19,Roulette
+4810836306,Pirate's Booty,8,17,Craps
+8374647435,Saddleman's Ranch,11,65,Blackjack
+4767797984,Tennessee Tom's,4,76,Roulette
+9288657453,Slappy O'Mulligans,3,12,Roulette
+5647027595,Montebella,6,31,Poker
+1158185305,Montebella,6,23,Craps
+1169077540,The Pallasadium,14,63,Slots
+0464397695,Slappy O'Mulligans,11,89,Poker
+2374406468,Saddleman's Ranch,15,81,Slots
+6114034799,Golden Pharoah,5,51,Slots
+6874539004,Tennessee Tom's,10,96,Poker
+9522979818,Saddleman's Ranch,1,87,Craps
+3237655306,Tennessee Tom's,9,67,Craps
+8583677363,Montebella,3,72,Poker
+8412818102,Montebella,8,84,Slots
+9653573814,Saddleman's Ranch,2,89,Poker
+4556362057,The Pallasadium,14,54,Craps
+3455305938,Lion's Den,10,20,Roulette
+4593365875,Montebella,8,34,Roulette
+9440816221,Tennessee Tom's,3,38,Slots
+3120960317,Tennessee Tom's,5,52,Craps
+9261650222,Golden Pharoah,13,82,Poker
+9531896166,Tennessee Tom's,14,85,Blackjack
+1563987849,Slappy O'Mulligans,4,42,Slots
+5235214499,Tennessee Tom's,5,58,Roulette
+8837684210,Golden Pharoah,6,91,Slots
+5306521261,Pirate's Booty,6,69,Roulette
+8485020117,The Pallasadium,9,44,Poker
+7674999280,Slappy O'Mulligans,11,91,Slots
+3375342261,Pirate's Booty,15,92,Poker
+5732295513,Montebella,2,95,Craps
+0611184140,Montebella,3,49,Craps
+1817390704,Lion's Den,13,69,Craps
+5772020059,Lion's Den,13,87,Blackjack
+0129680315,Pirate's Booty,15,66,Blackjack
+5363761666,The Pallasadium,15,73,Craps
+4741520241,Pirate's Booty,12,62,Blackjack
+4785102702,Slappy O'Mulligans,7,92,Slots
+5763915577,The Pallasadium,8,10,Slots
+5241825351,Lion's Den,5,83,Blackjack
+3471706415,The Pallasadium,15,83,Roulette
+4238423951,Golden Pharoah,11,72,Blackjack
+8225556103,Lion's Den,3,55,Blackjack
+4676430055,Pirate's Booty,4,31,Roulette
+4368500728,Slappy O'Mulligans,8,52,Roulette
+9670537440,Golden Pharoah,1,52,Poker
+1510263583,Montebella,15,69,Slots
+3618874125,Golden Pharoah,2,45,Slots
+8255567182,Tennessee Tom's,1,57,Craps
+5895682833,Tennessee Tom's,10,39,Blackjack
+8944816799,Slappy O'Mulligans,2,74,Roulette
+3779741678,Golden Pharoah,13,60,Blackjack
+1288882745,Lion's Den,6,70,Slots
+6316033913,The Pallasadium,10,77,Slots
+1832226636,Montebella,14,80,Blackjack
+7188992210,Pirate's Booty,7,51,Poker
+6843011735,Slappy O'Mulligans,9,54,Blackjack
+2672972456,Saddleman's Ranch,13,74,Craps
+8514254409,Tennessee Tom's,9,64,Blackjack
+4129277257,Golden Pharoah,10,87,Slots
+2331480466,Saddleman's Ranch,5,71,Roulette
+9337725240,Slappy O'Mulligans,8,73,Craps
+4488901752,Pirate's Booty,6,26,Slots
+6701546516,Pirate's Booty,4,79,Blackjack
+4090229157,Pirate's Booty,9,71,Craps
+5132073285,Tennessee Tom's,8,42,Roulette
+7769964747,The Pallasadium,1,56,Roulette
+7032300848,Pirate's Booty,11,47,Blackjack
+4574941418,Montebella,15,53,Poker
+2682538242,Montebella,13,65,Blackjack
+4978604528,Pirate's Booty,13,79,Roulette
+2828933273,Montebella,8,66,Poker
+9008585697,Pirate's Booty,12,27,Roulette
+6344437800,Golden Pharoah,8,15,Blackjack
+4990298675,Pirate's Booty,8,38,Slots
+6223101555,The Pallasadium,14,32,Craps
+0721329835,Lion's Den,5,97,Roulette
+0359376431,Slappy O'Mulligans,5,100,Blackjack
+4828286502,Slappy O'Mulligans,13,34,Craps
+7348678149,Saddleman's Ranch,14,52,Poker
+8718991563,Lion's Den,5,41,Craps
+0206518548,Golden Pharoah,7,15,Craps
+3811632284,Pirate's Booty,9,34,Craps
+9270749284,Saddleman's Ranch,13,48,Poker
+9674084629,Golden Pharoah,4,93,Blackjack
+3128543979,Slappy O'Mulligans,11,41,Blackjack
+3309353684,Slappy O'Mulligans,11,58,Slots
+4022828266,Montebella,3,89,Craps
+2824878061,Slappy O'Mulligans,8,89,Craps
+8897897352,Slappy O'Mulligans,6,15,Blackjack
+1132675384,Tennessee Tom's,1,90,Roulette
+9218172423,Lion's Den,5,36,Blackjack
+7136477580,Saddleman's Ranch,10,59,Blackjack
+6422492777,The Pallasadium,13,55,Roulette
+2378728041,Tennessee Tom's,4,15,Slots
+7230025083,Pirate's Booty,2,84,Roulette
+8008395343,Saddleman's Ranch,5,93,Slots
+4810788444,Pirate's Booty,5,45,Craps
+4697344854,Montebella,9,48,Slots
+4991947449,Lion's Den,9,84,Poker
+5908748844,Lion's Den,4,39,Blackjack
+0154327814,Montebella,3,92,Poker
+5834754960,Slappy O'Mulligans,7,38,Poker
+1756395991,Lion's Den,6,56,Poker
+5667986742,Lion's Den,10,60,Blackjack
+9013905693,Slappy O'Mulligans,4,55,Slots
+7345823355,The Pallasadium,7,24,Poker
+3461428204,Slappy O'Mulligans,7,100,Roulette
+1112790348,Saddleman's Ranch,14,77,Roulette
+6696014064,Saddleman's Ranch,14,95,Poker
+3216595849,Pirate's Booty,6,22,Craps
+4733081756,Slappy O'Mulligans,14,18,Poker
+4967520302,Lion's Den,10,76,Slots
+4300925594,Tennessee Tom's,3,100,Slots
+7653541648,Lion's Den,3,18,Craps
+9832837341,Tennessee Tom's,6,64,Slots
+8328009670,The Pallasadium,14,63,Blackjack
+2539699607,The Pallasadium,7,23,Craps
+7727145048,Pirate's Booty,1,50,Slots
+1417236838,The Pallasadium,9,93,Craps
+7047654357,Saddleman's Ranch,15,55,Poker
+8337775543,Saddleman's Ranch,2,45,Blackjack
+7294102882,Montebella,9,72,Poker
+3326905000,Pirate's Booty,12,87,Blackjack
+0343388368,The Pallasadium,13,64,Roulette
+6927721049,Slappy O'Mulligans,4,37,Poker
+1929776699,Montebella,10,10,Blackjack
+7753823270,Slappy O'Mulligans,9,61,Roulette
+4752638420,Pirate's Booty,3,99,Craps
+9485538466,Tennessee Tom's,12,46,Blackjack
+3291692262,Saddleman's Ranch,4,88,Slots
+3938019031,Tennessee Tom's,10,14,Poker
+7169344717,Slappy O'Mulligans,6,66,Roulette
+7837610173,Montebella,10,32,Slots
+8609363009,Golden Pharoah,12,97,Slots
+1142059782,Tennessee Tom's,12,67,Slots
+2564092042,Saddleman's Ranch,7,50,Poker
+2976354600,Saddleman's Ranch,8,25,Craps
+0668082439,The Pallasadium,8,67,Poker
+2937253500,Pirate's Booty,15,94,Craps
+2069390041,Pirate's Booty,8,89,Roulette
+5633263317,Lion's Den,8,73,Roulette
+5565339946,Montebella,14,79,Roulette
+9725959036,Golden Pharoah,6,35,Blackjack
+9802671733,Pirate's Booty,2,43,Roulette
+1152987592,Tennessee Tom's,6,54,Craps
+0191963653,Tennessee Tom's,4,40,Blackjack
+8179700273,The Pallasadium,3,37,Poker
+1646697701,Montebella,12,58,Blackjack
+2444672522,Saddleman's Ranch,10,32,Craps
+7351496157,The Pallasadium,5,71,Poker
+0536522802,Slappy O'Mulligans,6,86,Poker
+5321919096,Pirate's Booty,14,79,Craps
+7068957318,Tennessee Tom's,10,28,Craps
+4853210198,Saddleman's Ranch,11,19,Slots
+2094292376,Pirate's Booty,10,75,Blackjack
+3111497566,Montebella,4,94,Slots
+4704075249,Slappy O'Mulligans,5,72,Poker
+1445264198,Saddleman's Ranch,14,26,Roulette
+7409822508,Golden Pharoah,11,16,Roulette
+1819170633,Saddleman's Ranch,8,62,Poker
+4998169204,Pirate's Booty,4,28,Blackjack
+2494095822,Tennessee Tom's,10,24,Craps
+8771071600,Slappy O'Mulligans,15,77,Craps
+1715134098,Pirate's Booty,4,65,Slots
+4953607876,Lion's Den,4,23,Roulette
+3929937856,Golden Pharoah,4,58,Craps
+0048507533,Golden Pharoah,14,42,Roulette
+7367699222,Lion's Den,12,54,Slots
+6144932783,Lion's Den,2,18,Poker
+6140750871,Tennessee Tom's,1,23,Roulette
+0762550461,Lion's Den,2,38,Poker
+9832682986,Saddleman's Ranch,4,16,Craps
+4689793725,Saddleman's Ranch,7,14,Slots
+4492277535,Lion's Den,15,95,Craps
+6280368351,The Pallasadium,4,29,Craps
+3636174970,Slappy O'Mulligans,4,26,Craps
+8193772421,Slappy O'Mulligans,15,85,Blackjack
+5907938986,The Pallasadium,1,16,Poker
+2563582285,Tennessee Tom's,11,18,Poker
+7612522130,Saddleman's Ranch,6,39,Craps
+7794312965,Golden Pharoah,5,59,Poker
+2413795894,Montebella,15,20,Slots
+8743521345,Tennessee Tom's,10,74,Blackjack
+8031560290,Tennessee Tom's,11,38,Slots
+9945652133,Saddleman's Ranch,15,28,Poker
+8070511248,Saddleman's Ranch,4,70,Craps
+1888095927,Montebella,2,74,Blackjack
+8845738782,Lion's Den,14,74,Blackjack
+7167213184,Golden Pharoah,13,68,Blackjack
+0888002344,Tennessee Tom's,15,13,Slots
+5690913666,The Pallasadium,1,20,Slots
+0240556483,Golden Pharoah,15,31,Poker
+9418631806,Montebella,6,33,Roulette
+2120807102,Golden Pharoah,1,69,Blackjack
+6715588280,Slappy O'Mulligans,5,80,Roulette
+0750895050,Lion's Den,5,99,Blackjack
+2978957005,The Pallasadium,6,99,Craps
+9796281361,Tennessee Tom's,10,52,Poker
+2589998492,Montebella,4,94,Blackjack
+3484552830,The Pallasadium,1,51,Craps
+2008302527,Golden Pharoah,1,35,Craps
+0293354250,Slappy O'Mulligans,1,87,Slots
+8001911699,Pirate's Booty,3,39,Slots
+1266437435,Pirate's Booty,9,25,Blackjack
+7153247354,Slappy O'Mulligans,8,70,Slots
+8172531084,Tennessee Tom's,4,39,Blackjack
+9369408670,Slappy O'Mulligans,11,68,Slots
+4614319325,Saddleman's Ranch,9,99,Poker
+5115154806,Tennessee Tom's,13,18,Poker
+8606580777,Slappy O'Mulligans,13,77,Blackjack
+1766305896,The Pallasadium,15,95,Roulette
+8202909635,Montebella,1,58,Poker
+1260461849,Golden Pharoah,10,77,Roulette
+4351153018,Golden Pharoah,7,95,Blackjack
+1999143413,Golden Pharoah,9,18,Poker
+1331616914,Pirate's Booty,5,32,Blackjack
+1081599070,Montebella,11,75,Slots
+9190843858,The Pallasadium,9,61,Roulette
+6511897484,Saddleman's Ranch,7,80,Blackjack
+5269443748,Tennessee Tom's,4,98,Blackjack
+0853805090,Tennessee Tom's,5,44,Craps
+6885206830,Lion's Den,2,14,Slots
+5200554620,Pirate's Booty,13,67,Slots
+2544443219,Slappy O'Mulligans,10,62,Roulette
+9975300947,Lion's Den,13,32,Roulette
+0287616610,Tennessee Tom's,11,34,Roulette
+2961479196,Golden Pharoah,9,88,Poker
+2560666029,Lion's Den,9,39,Poker
+6622100275,The Pallasadium,9,27,Slots
+8314013387,Golden Pharoah,13,49,Slots
+8868461955,Slappy O'Mulligans,9,75,Roulette
+0765896826,Montebella,12,91,Craps
+0564502200,Slappy O'Mulligans,3,23,Roulette
+8173310198,Lion's Den,10,74,Poker
+1244245599,The Pallasadium,6,88,Roulette
+5646950273,Tennessee Tom's,8,30,Craps
+1858225448,Lion's Den,13,81,Craps
+2128092501,Lion's Den,12,85,Roulette
+8197825638,Lion's Den,5,47,Roulette
+2172063571,The Pallasadium,9,74,Craps
+0413354848,Saddleman's Ranch,10,55,Poker
+7581371237,Pirate's Booty,12,55,Blackjack
+7821112718,Tennessee Tom's,12,82,Craps
+3134071413,The Pallasadium,3,91,Craps
+5402589730,Golden Pharoah,4,100,Slots
+6707079150,Slappy O'Mulligans,10,63,Craps
+1331162664,Lion's Den,14,76,Slots
+9642673624,Slappy O'Mulligans,15,91,Craps
+9214721861,The Pallasadium,14,31,Poker
+9295719388,Montebella,1,93,Slots
+6021430995,The Pallasadium,5,80,Roulette
+2938512883,Lion's Den,8,75,Blackjack
+5377403390,Montebella,15,89,Poker
+8609181332,Montebella,14,90,Slots
+3319325919,Tennessee Tom's,12,34,Roulette
+5823106181,Saddleman's Ranch,2,31,Roulette
+0472194373,Lion's Den,10,70,Poker
+4648635959,Montebella,1,67,Craps
+8513279596,Montebella,5,31,Slots
+5637008069,Slappy O'Mulligans,4,68,Slots
+8415818856,The Pallasadium,10,50,Craps
+0017688651,Saddleman's Ranch,11,26,Craps
+4218085817,Montebella,2,81,Poker
+5764206453,Saddleman's Ranch,9,46,Blackjack
+4683009941,Saddleman's Ranch,8,20,Roulette
+1360022173,Slappy O'Mulligans,1,34,Roulette
+2038911161,Slappy O'Mulligans,3,13,Roulette
+0802154783,Lion's Den,15,42,Roulette
+4195356403,Pirate's Booty,7,97,Roulette
+0710358861,Slappy O'Mulligans,3,16,Slots
+3314111065,Lion's Den,5,18,Craps
+2750705533,Lion's Den,9,73,Poker
+1532213180,The Pallasadium,1,80,Poker
+4274959449,Montebella,11,49,Roulette
+8907678627,Montebella,14,25,Poker
+6896094379,Tennessee Tom's,12,76,Craps
+1630592279,Lion's Den,2,66,Slots
+2466287204,Tennessee Tom's,8,44,Roulette
+5485843471,Montebella,7,30,Roulette
+4603788527,Saddleman's Ranch,4,21,Poker
+5881100277,Montebella,7,34,Roulette
+0245721397,Montebella,10,26,Blackjack
+7685593417,Tennessee Tom's,10,36,Slots
+1297326913,Saddleman's Ranch,2,33,Blackjack
+7905996667,Slappy O'Mulligans,3,60,Slots
+2646887208,Tennessee Tom's,1,52,Poker
+5451526520,Slappy O'Mulligans,4,66,Craps
+7970961253,Slappy O'Mulligans,9,53,Craps
+7589115497,Lion's Den,9,81,Poker
+9296008646,Golden Pharoah,2,75,Poker
+6040657639,Slappy O'Mulligans,15,46,Craps
+1876067485,Pirate's Booty,1,54,Poker
+9121137520,Lion's Den,12,40,Poker
+7925254311,Montebella,3,63,Slots
+9834773723,Golden Pharoah,11,87,Slots
+5896528369,Tennessee Tom's,15,82,Roulette
+7786565280,Tennessee Tom's,10,70,Roulette
+4732145360,Montebella,7,10,Slots
+6127256667,The Pallasadium,9,29,Slots
+9625019181,Golden Pharoah,14,39,Roulette
+0422206979,Tennessee Tom's,9,35,Slots
+3379661406,Golden Pharoah,5,23,Roulette
+7633498482,Saddleman's Ranch,8,32,Craps
+8942277788,Slappy O'Mulligans,11,20,Blackjack
+5972666735,Golden Pharoah,2,84,Roulette
+7166488469,Montebella,8,27,Blackjack
+4305175507,Golden Pharoah,7,20,Craps
+7612858947,Montebella,15,20,Slots
+3364551384,Saddleman's Ranch,15,22,Craps

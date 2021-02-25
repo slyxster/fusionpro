@@ -1,0 +1,25 @@
+Location Name	Address1	Address2	City	State	Zip	Toll Free Ph	Direct Ph	Office Info
+Westwood Office	1045 Broxton Ave.	Suite 100	Los Angeles	CA	90024	800.555.2344	213.555.1234	Location1info.txt
+OC Office	4245 Campus Dr.		Irvine	CA	92612	800.555.2345	960.455.1233	Location2info.txt
+SF Office	1000 Van Ness Way	Suite 200	San Franicsco	CA	94109	800.555.2346	740.444.2344	Location3info.txt
+Colorado Springs Office	1545 East Cheyenne Mountain Blvd.		Colorado Springs	CO	80906	800.555.2347	505.443.0099	Location4info.txt
+Denver Office	2000 S Colorado Blvd. 	Suite C	Denver	CO	80222	800.555.2348	580.445.4433	Location5info.txt
+Utah Office	165 S. Rio Grande St.	Building G	Salt Lake City	UT	84101	800.555.2349	807.555.4455	Location6info.txt
+Missouri Office	212 N. Kings Highway		St. Louis	MO	63108	800.555.2350	430.555.6677	Location7info.txt
+Arizona Office	4550 E. Cactus Rd.		Phoenix	AZ	85032	800.555.2351	233.409.3267	Location1info.txt
+Houston Office	11801 E. South Sam Houston Pkwy		Houston	TX	77089	800.555.2352	302.344.5109	Location2info.txt
+Dallas Office	5321 E. Mockingbird Lane	Suite 230	Dallas	TX	75206	800.555.2353	450.555.3434	Location3info.txt
+Georgia Office	2000 Moreland Ave. SE		Atlanta	GA	30316	800.555.2354	496.555.3001	Location4info.txt
+Ft. Laud Office	1820 E Sunrise Blvd.		Fort Lauderdale	FL	33304	800.555.2355	380.221.3466	Location5info.txt
+Orlando Office	541 North Alafaya Trail		Orlando	FL	32828	800.555.2356	390.333.1230	Location6info.txt
+Gulf Coast Office	210 Westshore Plaza	Bldg. 2	Tampa	FL	33609	800.555.2357	344.555.6554	Location7info.txt
+Maryland Office	5904 York Road	Suite G	Baltimore	MD	21212	800.555.2358	802.344.0909	Location1info.txt
+DC Office	"812 Seventh Street, NW"	Annex F	Washington	DC	20001	800.555.2359	219.655.6377	Location2info.txt
+Boston Office	200 Stuart Street	Suite 4300	Boston	MA	21160	800.555.2360	450.333.4400	Location3info.txt
+Conn Office	99 Red Stone Rd.	Office 10	Manchester	CT	60450	800.555.2361	872.445.6734	Location4info.txt
+RI Office	Providence Place Mall		Providence	RI	29030	800.555.2362	377.555.2344	Location5info.txt
+Philly Office	3701 Chestnut Street	Suite 4	Philadelphia	PA	19104	800.555.2363	325.430.4556	Location6info.txt
+Pitt Office	2100 Settlers Ridge Center Drive		Pittsburgh	PA	15205	800.555.2364	455.344.1990	Location7info.txt
+NYC Office	2309 Frederick Douglass Blvd.	Suite 150	New York	NY	10027	800.555.2365	212.555.3444	Location1info.txt
+Brooklyn Office	30 Lafayette Ave.		Brooklyn	NY	11217	800.555.2366	902.455.6662	Location2info.txt
+Chicago Office	1471 W Webster Ave.	Suite 400	Chicago	IL	60614	800.555.2367	606.444.1299	Location3info.txt
