@@ -1,1 +1,1506 @@
-<?xml version="1.0" encoding="utf-8"?><xs:schema elementFormDefault="qualified" targetNamespace="WCF.FusionPro.PTI.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="WCF.FusionPro.PTI.com"><xs:import schemaLocation="mex2.xml" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:import schemaLocation="mex3.xml" namespace="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element name="Format_GetAllGraphicFrameNames"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllGraphicFrameNamesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetAllGraphicFrameNamesResult" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_AddGraphicFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="graphicFrame" nillable="true" type="q2:GraphicFrame" xmlns:q2="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_AddGraphicFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_AddGraphicFrameResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetFontArray"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetFontArrayResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetFontArrayResult" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetGraphicFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetGraphicFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetGraphicFrameResult" nillable="true" type="q4:GraphicFrame" xmlns:q4="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_UpdateGraphicFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="graphicFrame" nillable="true" type="q5:GraphicFrame" xmlns:q5="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_UpdateGraphicFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_UpdateGraphicFrameResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_DeleteGraphicFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_DeleteGraphicFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_DeleteGraphicFrameResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="ListGroups"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="WebEnabled" type="xs:boolean"/></xs:sequence></xs:complexType></xs:element><xs:element name="ListGroupsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ListGroupsResult" nillable="true" type="q6:TemplateCollectionResponse" xmlns:q6="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="ListTemplates"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q7:TemplateRequest" xmlns:q7="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="ListTemplatesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ListTemplatesResult" nillable="true" type="q8:TemplateCollectionResponse" xmlns:q8="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateInfo"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q9:TemplateRequest" xmlns:q9="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateInfoResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateInfoResult" nillable="true" type="q10:Template" xmlns:q10="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplatePagesAndRecords"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q11:TemplateRequest" xmlns:q11="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplatePagesAndRecordsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplatePagesAndRecordsResult" nillable="true" type="q12:Template" xmlns:q12="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateJobOptions"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q13:TemplateRequest" xmlns:q13="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateJobOptionsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateJobOptionsResult" nillable="true" type="q14:JobOptions" xmlns:q14="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplates"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q15:TemplateRequest" xmlns:q15="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplatesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplatesResult" nillable="true" type="q16:TemplateCollectionResponse" xmlns:q16="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFileURL"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q17:TemplateRequest" xmlns:q17="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFileURLResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateFileURLResult" nillable="true" type="q18:TemplateResponse" xmlns:q18="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFilePath"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q19:TemplateRequest" xmlns:q19="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFilePathResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateFilePathResult" nillable="true" type="q20:TemplateResponse" xmlns:q20="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFileBytes"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q21:TemplateRequest" xmlns:q21="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFileBytesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateFileBytesResult" nillable="true" type="q22:TemplateResponse" xmlns:q22="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateResourceURL"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q23:TemplateRequest" xmlns:q23="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateResourceURLResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateResourceURLResult" nillable="true" type="q24:TemplateResponse" xmlns:q24="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateResourceFilePath"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q25:TemplateRequest" xmlns:q25="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateResourceFilePathResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateResourceFilePathResult" nillable="true" type="q26:TemplateResponse" xmlns:q26="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateResourceBytes"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q27:TemplateRequest" xmlns:q27="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateResourceBytesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateResourceBytesResult" nillable="true" type="q28:TemplateResponse" xmlns:q28="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFormData"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q29:TemplateRequest" xmlns:q29="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFormDataResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateFormDataResult" nillable="true" type="q30:TemplateResponse" xmlns:q30="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFieldNames"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q31:FieldInfoRequest" xmlns:q31="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFieldNamesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateFieldNamesResult" nillable="true" type="q32:TemplateFieldResponse" xmlns:q32="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFields"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q33:FieldInfoRequest" xmlns:q33="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateFieldsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateFieldsResult" nillable="true" type="q34:TemplateFieldResponse" xmlns:q34="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateRulesAndResources"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q35:FieldInfoRequest" xmlns:q35="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTemplateRulesAndResourcesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTemplateRulesAndResourcesResult" nillable="true" type="q36:TemplateFieldResponse" xmlns:q36="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddTemplateFromFile"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q37:TemplateAddRequest" xmlns:q37="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddTemplateFromFileResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddTemplateFromFileResult" nillable="true" type="q38:TemplateAddResponse" xmlns:q38="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddTemplateFromBytes"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q39:TemplateAddRequest" xmlns:q39="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddTemplateFromBytesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddTemplateFromBytesResult" nillable="true" type="q40:TemplateAddResponse" xmlns:q40="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="RenameTemplate"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q41:TemplateDuplicateRequest" xmlns:q41="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="RenameTemplateResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="RenameTemplateResult" nillable="true" type="q42:TemplateResponse" xmlns:q42="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DuplicateTemplate"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q43:TemplateDuplicateRequest" xmlns:q43="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DuplicateTemplateResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DuplicateTemplateResult" nillable="true" type="q44:TemplateAddResponse" xmlns:q44="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetWebConfigureSettings"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q45:TemplateRequest" xmlns:q45="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetWebConfigureSettingsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetWebConfigureSettingsResult" nillable="true" type="q46:TemplateResponse" xmlns:q46="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetWebConfigureSettings"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q47:TemplateRequest" xmlns:q47="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetWebConfigureSettingsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SetWebConfigureSettingsResult" nillable="true" type="q48:TemplateResponse" xmlns:q48="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteTemplate"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q49:TemplateRequest" xmlns:q49="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteTemplateResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteTemplateResult" nillable="true" type="q50:TemplateResponse" xmlns:q50="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteGroup"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q51:TemplateRequest" xmlns:q51="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteGroupResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteGroupResult" nillable="true" type="q52:TemplateResponse" xmlns:q52="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionFileURL"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q53:CompositionFilePathURLRequest" xmlns:q53="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionFileURLResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionFileURLResult" nillable="true" type="q54:CompositionFilePathURLResponse" xmlns:q54="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionFilePath"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q55:CompositionFilePathURLRequest" xmlns:q55="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionFilePathResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionFilePathResult" nillable="true" type="q56:CompositionFilePathURLResponse" xmlns:q56="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionFileBytes"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q57:CompositionFilePathURLRequest" xmlns:q57="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionFileBytesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionFileBytesResult" nillable="true" type="q58:CompositionFilePathURLResponse" xmlns:q58="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionResourceURL"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q59:CompositionFilePathURLRequest" xmlns:q59="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionResourceURLResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionResourceURLResult" nillable="true" type="q60:CompositionFilePathURLResponse" xmlns:q60="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionResourceFilePath"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q61:CompositionFilePathURLRequest" xmlns:q61="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionResourceFilePathResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionResourceFilePathResult" nillable="true" type="q62:CompositionFilePathURLResponse" xmlns:q62="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionResourceBytes"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q63:CompositionFilePathURLRequest" xmlns:q63="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionResourceBytesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionResourceBytesResult" nillable="true" type="q64:CompositionFilePathURLResponse" xmlns:q64="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetPreviewJPEG_URL"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q65:Preview" xmlns:q65="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetPreviewJPEG_URLResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetPreviewJPEG_URLResult" nillable="true" type="q66:CompositionFilePathURLResponse" xmlns:q66="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetPreviewJPEG_Path"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q67:Preview" xmlns:q67="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetPreviewJPEG_PathResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetPreviewJPEG_PathResult" nillable="true" type="q68:CompositionFilePathURLResponse" xmlns:q68="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteCompositionFile"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q69:CompositionFilePathURLRequest" xmlns:q69="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteCompositionFileResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteCompositionFileResult" nillable="true" type="q70:CompositionFilePathURLResponse" xmlns:q70="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetPreviewJPEG_Bytes"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q71:Preview" xmlns:q71="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetPreviewJPEG_BytesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetPreviewJPEG_BytesResult" nillable="true" type="q72:CompositionFilePathURLResponse" xmlns:q72="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateCompositionSession"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q73:CompositionRequest" xmlns:q73="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateCompositionSessionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CreateCompositionSessionResult" nillable="true" type="q74:CreateCompositionResponse" xmlns:q74="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateOnDemandCompositionSession"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q75:CompositionRequest" xmlns:q75="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CreateOnDemandCompositionSessionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CreateOnDemandCompositionSessionResult" nillable="true" type="q76:CreateCompositionResponse" xmlns:q76="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetFusionProStatus"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="type" type="q77:FPParameterType" xmlns:q77="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetFusionProStatusResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetFusionProStatusResult" nillable="true" type="q78:GetFusionProStatusResponse" xmlns:q78="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="StartComposition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q79:CompositionRequest" xmlns:q79="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="StartCompositionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="StartCompositionResult" nillable="true" type="q80:StartCompositionResponse" xmlns:q80="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="QueueCompositionFromSession"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q81:QueueCompositionRequest" xmlns:q81="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="QueueCompositionFromSessionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="QueueCompositionFromSessionResult" nillable="true" type="q82:StartCompositionResponse" xmlns:q82="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="StartCompositionFromSession"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Request" nillable="true" type="q83:StartCompositionRequest" xmlns:q83="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="StartCompositionFromSessionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="StartCompositionFromSessionResult" nillable="true" type="q84:StartCompositionResponse" xmlns:q84="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CheckCompositionStatus"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q85:CompositionFilePathURLRequest" xmlns:q85="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CheckCompositionStatusResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CheckCompositionStatusResult" nillable="true" type="q86:CompositionStatus" xmlns:q86="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CheckThisCompositionStatus"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q87:CompositionFilePathURLRequest" xmlns:q87="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CheckThisCompositionStatusResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CheckThisCompositionStatusResult" nillable="true" type="q88:CompositionStatus" xmlns:q88="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionInfo"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q89:CompositionFilePathURLRequest" xmlns:q89="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionInfoResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionInfoResult" nillable="true" type="q90:CompositionInfo" xmlns:q90="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CancelComposition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q91:CompositionFilePathURLRequest" xmlns:q91="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CancelCompositionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CancelCompositionResult" nillable="true" type="q92:CompositionFilePathURLResponse" xmlns:q92="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CancelThisComposition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q93:CompositionFilePathURLRequest" xmlns:q93="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="CancelThisCompositionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CancelThisCompositionResult" nillable="true" type="q94:CompositionFilePathURLResponse" xmlns:q94="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="EndCompositionSession"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q95:CompositionFilePathURLRequest" xmlns:q95="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="EndCompositionSessionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="EndCompositionSessionResult" nillable="true" type="q96:CompositionFilePathURLResponse" xmlns:q96="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteCompositionSession"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q97:CompositionFilePathURLRequest" xmlns:q97="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteCompositionSessionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteCompositionSessionResult" nillable="true" type="q98:CompositionFilePathURLResponse" xmlns:q98="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteThisComposition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q99:CompositionFilePathURLRequest" xmlns:q99="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteThisCompositionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteThisCompositionResult" nillable="true" type="q100:CompositionFilePathURLResponse" xmlns:q100="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddCompositionFile"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q101:AddCompositionComponentRequest" xmlns:q101="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddCompositionFileResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddCompositionFileResult" nillable="true" type="q102:AddCompositionComponentResponse" xmlns:q102="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddCompositionResource"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q103:AddCompositionComponentRequest" xmlns:q103="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddCompositionResourceResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddCompositionResourceResult" nillable="true" type="q104:AddCompositionComponentResponse" xmlns:q104="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="ListCompositionSessions"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q105:CompositionSessionRequest" xmlns:q105="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="ListCompositionSessionsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="ListCompositionSessionsResult" nillable="true" type="q106:ArrayOfint" xmlns:q106="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionSessions"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q107:CompositionSessionRequest" xmlns:q107="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetCompositionSessionsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetCompositionSessionsResult" nillable="true" type="q108:GetCompositionSessionsResponse" xmlns:q108="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetTargetActivity"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="GetTargetActivityResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetTargetActivityResult" nillable="true" type="q109:TargetStatusActivityResponse" xmlns:q109="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="InitTargetStatus"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q110:TargetInitRequest" xmlns:q110="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="InitTargetStatusResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="InitTargetStatusResult" nillable="true" type="q111:TargetInitResponse" xmlns:q111="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="TargetCheck"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q112:TargetStatusRequest" xmlns:q112="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="TargetCheckResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="TargetCheckResult" nillable="true" type="q113:TargetStatusResponse" xmlns:q113="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="ReportBackToScheduler"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="request" nillable="true" type="q114:ReportBackStatusRequest" xmlns:q114="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="ReportBackToSchedulerResponse"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="AddEmailConfiguration"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q115:AddEmailConfigurationRequest" xmlns:q115="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddEmailConfigurationResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddEmailConfigurationResult" nillable="true" type="q116:EmailResponse" xmlns:q116="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="SendEmail"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q117:EmailRequest" xmlns:q117="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="SendEmailResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SendEmailResult" nillable="true" type="q118:EmailResponse" xmlns:q118="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetEmailConfiguration"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="GetEmailConfigurationResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetEmailConfigurationResult" nillable="true" type="q119:GetEmailConfigurationResponse" xmlns:q119="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetApplicationSettings"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="GetApplicationSettingsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetApplicationSettingsResult" nillable="true" type="q120:GetApplicationSettingsResponse" xmlns:q120="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetApplicationSettings"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q121:SetApplicationSettingsRequest" xmlns:q121="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="SetApplicationSettingsResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="SetApplicationSettingsResult" nillable="true" type="q122:SetApplicationSettingsResponse" xmlns:q122="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetWatches"><xs:complexType><xs:sequence/></xs:complexType></xs:element><xs:element name="GetWatchesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetWatchesResult" nillable="true" type="q123:GetWatchersResponse" xmlns:q123="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetWatch"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q124:GetWatchersRequest" xmlns:q124="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="GetWatchResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="GetWatchResult" nillable="true" type="q125:GetWatcherResponse" xmlns:q125="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddWatch"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q126:WatchRequest" xmlns:q126="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddWatchResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddWatchResult" nillable="true" type="q127:WatchResponse" xmlns:q127="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="EditWatch"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q128:WatchRequest" xmlns:q128="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="EditWatchResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="EditWatchResult" nillable="true" type="q129:WatchResponse" xmlns:q129="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteWatch"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q130:WatchRequest" xmlns:q130="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteWatchResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteWatchResult" nillable="true" type="q131:WatchResponse" xmlns:q131="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddWatchCondition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q132:WatchConditionRequest" xmlns:q132="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddWatchConditionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddWatchConditionResult" nillable="true" type="q133:WatchResponse" xmlns:q133="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="UpdateWatchCondition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q134:WatchConditionRequest" xmlns:q134="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="UpdateWatchConditionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="UpdateWatchConditionResult" nillable="true" type="q135:WatchResponse" xmlns:q135="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteWatchCondition"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q136:WatchConditionRequest" xmlns:q136="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteWatchConditionResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteWatchConditionResult" nillable="true" type="q137:WatchResponse" xmlns:q137="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddWatchTask"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q138:WatchTaskRequest" xmlns:q138="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="AddWatchTaskResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="AddWatchTaskResult" nillable="true" type="q139:WatchResponse" xmlns:q139="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="UpdateWatchTask"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q140:WatchTaskRequest" xmlns:q140="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="UpdateWatchTaskResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="UpdateWatchTaskResult" nillable="true" type="q141:WatchResponse" xmlns:q141="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteWatchTask"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="req" nillable="true" type="q142:WatchTaskRequest" xmlns:q142="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="DeleteWatchTaskResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="DeleteWatchTaskResult" nillable="true" type="q143:WatchResponse" xmlns:q143="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetNumberOfBodyPages"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetNumberOfBodyPagesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetNumberOfBodyPagesResult" type="xs:int"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetTextFramesOnPage"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="Page" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetTextFramesOnPageResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetTextFramesOnPageResult" nillable="true" type="q144:ArrayOfTextFrame" xmlns:q144="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllTextFrames"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllTextFramesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetAllTextFramesResult" nillable="true" type="q145:ArrayOfTextFrame" xmlns:q145="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetTextFrameNamesOnPage"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="Page" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetTextFrameNamesOnPageResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetTextFrameNamesOnPageResult" nillable="true" type="q146:ArrayOfstring" xmlns:q146="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllTextFrameNames"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllTextFrameNamesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetAllTextFrameNamesResult" nillable="true" type="q147:ArrayOfstring" xmlns:q147="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_AddTextFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="textFrame" nillable="true" type="q148:TextFrame" xmlns:q148="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_AddTextFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_AddTextFrameResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetTextFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetTextFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetTextFrameResult" nillable="true" type="q149:TextFrame" xmlns:q149="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_UpdateTextFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="textFrame" nillable="true" type="q150:TextFrame" xmlns:q150="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_UpdateTextFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_UpdateTextFrameResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_UpdateTextFrames"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="textFrames" nillable="true" type="q151:ArrayOfTextFrame" xmlns:q151="http://schemas.datacontract.org/2004/07/FusionProQueue"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_UpdateTextFramesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_UpdateTextFramesResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_DeleteTextFrame"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_DeleteTextFrameResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_DeleteTextFrameResult" type="xs:boolean"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetGraphicFramesOnPage"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="Page" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetGraphicFramesOnPageResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetGraphicFramesOnPageResult" nillable="true" type="q152:ArrayOfGraphicFrame" xmlns:q152="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllGraphicFrames"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetAllGraphicFramesResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetAllGraphicFramesResult" nillable="true" type="q153:ArrayOfGraphicFrame" xmlns:q153="http://schemas.datacontract.org/2004/07/FusionProQueue"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetGraphicFrameNamesOnPage"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="CompositionID" type="xs:int"/><xs:element minOccurs="0" name="Page" type="xs:int"/></xs:sequence></xs:complexType></xs:element><xs:element name="Format_GetGraphicFrameNamesOnPageResponse"><xs:complexType><xs:sequence><xs:element minOccurs="0" name="Format_GetGraphicFrameNamesOnPageResult" nillable="true" type="q154:ArrayOfstring" xmlns:q154="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/></xs:sequence></xs:complexType></xs:element></xs:schema>
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="WCF.FusionPro.PTI.com"
+           elementFormDefault="qualified" targetNamespace="WCF.FusionPro.PTI.com">
+    <xs:import schemaLocation="mex2.xml" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+    <xs:import schemaLocation="mex3.xml" namespace="http://schemas.datacontract.org/2004/07/FusionProQueue"/>
+    <xs:element name="Format_GetAllGraphicFrameNames">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllGraphicFrameNamesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Format_GetAllGraphicFrameNamesResult"
+                            nillable="true"
+                            type="q1:ArrayOfstring"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_AddGraphicFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="graphicFrame" nillable="true"
+                            type="q2:GraphicFrame"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_AddGraphicFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_AddGraphicFrameResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetFontArray">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetFontArrayResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Format_GetFontArrayResult" nillable="true"
+                            type="q3:ArrayOfstring"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetGraphicFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetGraphicFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Format_GetGraphicFrameResult" nillable="true"
+                            type="q4:GraphicFrame"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_UpdateGraphicFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="graphicFrame" nillable="true"
+                            type="q5:GraphicFrame"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_UpdateGraphicFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_UpdateGraphicFrameResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_DeleteGraphicFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_DeleteGraphicFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_DeleteGraphicFrameResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ListGroups">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="WebEnabled" type="xs:boolean"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ListGroupsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="ListGroupsResult" nillable="true"
+                            type="q6:TemplateCollectionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ListTemplates">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q7:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ListTemplatesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="ListTemplatesResult"
+                            nillable="true"
+                            type="q8:TemplateCollectionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q9:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateInfoResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateInfoResult" nillable="true"
+                            type="q10:Template"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplatePagesAndRecords">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q11:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplatePagesAndRecordsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplatePagesAndRecordsResult" nillable="true"
+                            type="q12:Template"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateJobOptions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q13:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateJobOptionsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateJobOptionsResult" nillable="true"
+                            type="q14:JobOptions"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplates">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q15:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplatesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplatesResult"
+                            nillable="true"
+                            type="q16:TemplateCollectionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFileURL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q17:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFileURLResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateFileURLResult" nillable="true"
+                            type="q18:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFilePath">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q19:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFilePathResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateFilePathResult" nillable="true"
+                            type="q20:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFileBytes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q21:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFileBytesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateFileBytesResult" nillable="true"
+                            type="q22:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateResourceURL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q23:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateResourceURLResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateResourceURLResult"
+                            nillable="true"
+                            type="q24:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateResourceFilePath">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q25:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateResourceFilePathResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateResourceFilePathResult"
+                            nillable="true"
+                            type="q26:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateResourceBytes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q27:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateResourceBytesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateResourceBytesResult"
+                            nillable="true"
+                            type="q28:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFormData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q29:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFormDataResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateFormDataResult" nillable="true"
+                            type="q30:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFieldNames">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q31:FieldInfoRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFieldNamesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateFieldNamesResult"
+                            nillable="true"
+                            type="q32:TemplateFieldResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFields">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q33:FieldInfoRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateFieldsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateFieldsResult"
+                            nillable="true"
+                            type="q34:TemplateFieldResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateRulesAndResources">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q35:FieldInfoRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTemplateRulesAndResourcesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTemplateRulesAndResourcesResult"
+                            nillable="true"
+                            type="q36:TemplateFieldResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddTemplateFromFile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q37:TemplateAddRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddTemplateFromFileResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddTemplateFromFileResult"
+                            nillable="true"
+                            type="q38:TemplateAddResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddTemplateFromBytes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q39:TemplateAddRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddTemplateFromBytesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddTemplateFromBytesResult"
+                            nillable="true"
+                            type="q40:TemplateAddResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RenameTemplate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q41:TemplateDuplicateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RenameTemplateResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="RenameTemplateResult" nillable="true"
+                            type="q42:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DuplicateTemplate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q43:TemplateDuplicateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DuplicateTemplateResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DuplicateTemplateResult" nillable="true"
+                            type="q44:TemplateAddResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetWebConfigureSettings">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q45:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetWebConfigureSettingsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetWebConfigureSettingsResult"
+                            nillable="true"
+                            type="q46:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SetWebConfigureSettings">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q47:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SetWebConfigureSettingsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="SetWebConfigureSettingsResult"
+                            nillable="true"
+                            type="q48:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteTemplate">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q49:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteTemplateResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteTemplateResult" nillable="true"
+                            type="q50:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteGroup">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q51:TemplateRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteGroupResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteGroupResult" nillable="true"
+                            type="q52:TemplateResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionFileURL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q53:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionFileURLResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionFileURLResult"
+                            nillable="true"
+                            type="q54:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionFilePath">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q55:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionFilePathResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionFilePathResult"
+                            nillable="true"
+                            type="q56:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionFileBytes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q57:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionFileBytesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionFileBytesResult"
+                            nillable="true"
+                            type="q58:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionResourceURL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q59:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionResourceURLResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionResourceURLResult"
+                            nillable="true"
+                            type="q60:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionResourceFilePath">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q61:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionResourceFilePathResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionResourceFilePathResult"
+                            nillable="true"
+                            type="q62:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionResourceBytes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q63:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionResourceBytesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionResourceBytesResult"
+                            nillable="true"
+                            type="q64:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPreviewJPEG_URL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q65:Preview"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPreviewJPEG_URLResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetPreviewJPEG_URLResult"
+                            nillable="true"
+                            type="q66:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPreviewJPEG_Path">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q67:Preview"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPreviewJPEG_PathResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetPreviewJPEG_PathResult"
+                            nillable="true"
+                            type="q68:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteCompositionFile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q69:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteCompositionFileResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteCompositionFileResult"
+                            nillable="true"
+                            type="q70:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPreviewJPEG_Bytes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q71:Preview"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPreviewJPEG_BytesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetPreviewJPEG_BytesResult"
+                            nillable="true"
+                            type="q72:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreateCompositionSession">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q73:CompositionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreateCompositionSessionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="CreateCompositionSessionResult"
+                            nillable="true"
+                            type="q74:CreateCompositionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreateOnDemandCompositionSession">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q75:CompositionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreateOnDemandCompositionSessionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="CreateOnDemandCompositionSessionResult"
+                            nillable="true"
+                            type="q76:CreateCompositionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetFusionProStatus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="type"
+                            type="q77:FPParameterType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetFusionProStatusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetFusionProStatusResult"
+                            nillable="true"
+                            type="q78:GetFusionProStatusResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="StartComposition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q79:CompositionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="StartCompositionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="StartCompositionResult"
+                            nillable="true"
+                            type="q80:StartCompositionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="QueueCompositionFromSession">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q81:QueueCompositionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="QueueCompositionFromSessionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="QueueCompositionFromSessionResult"
+                            nillable="true"
+                            type="q82:StartCompositionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="StartCompositionFromSession">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Request" nillable="true"
+                            type="q83:StartCompositionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="StartCompositionFromSessionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="StartCompositionFromSessionResult"
+                            nillable="true"
+                            type="q84:StartCompositionResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CheckCompositionStatus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q85:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CheckCompositionStatusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="CheckCompositionStatusResult"
+                            nillable="true"
+                            type="q86:CompositionStatus"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CheckThisCompositionStatus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q87:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CheckThisCompositionStatusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="CheckThisCompositionStatusResult"
+                            nillable="true"
+                            type="q88:CompositionStatus"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q89:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionInfoResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionInfoResult" nillable="true"
+                            type="q90:CompositionInfo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CancelComposition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q91:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CancelCompositionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="CancelCompositionResult"
+                            nillable="true"
+                            type="q92:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CancelThisComposition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q93:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CancelThisCompositionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="CancelThisCompositionResult"
+                            nillable="true"
+                            type="q94:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="EndCompositionSession">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q95:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="EndCompositionSessionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="EndCompositionSessionResult"
+                            nillable="true"
+                            type="q96:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteCompositionSession">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q97:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteCompositionSessionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteCompositionSessionResult"
+                            nillable="true"
+                            type="q98:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteThisComposition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q99:CompositionFilePathURLRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteThisCompositionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteThisCompositionResult"
+                            nillable="true"
+                            type="q100:CompositionFilePathURLResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddCompositionFile">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q101:AddCompositionComponentRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddCompositionFileResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddCompositionFileResult"
+                            nillable="true"
+                            type="q102:AddCompositionComponentResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddCompositionResource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q103:AddCompositionComponentRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddCompositionResourceResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddCompositionResourceResult"
+                            nillable="true"
+                            type="q104:AddCompositionComponentResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ListCompositionSessions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q105:CompositionSessionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ListCompositionSessionsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q106="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ListCompositionSessionsResult" nillable="true"
+                            type="q106:ArrayOfint"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionSessions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q107:CompositionSessionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCompositionSessionsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetCompositionSessionsResult"
+                            nillable="true"
+                            type="q108:GetCompositionSessionsResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTargetActivity">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTargetActivityResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetTargetActivityResult"
+                            nillable="true"
+                            type="q109:TargetStatusActivityResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="InitTargetStatus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q110:TargetInitRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="InitTargetStatusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="InitTargetStatusResult" nillable="true"
+                            type="q111:TargetInitResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TargetCheck">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q112:TargetStatusRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TargetCheckResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q113="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="TargetCheckResult" nillable="true"
+                            type="q113:TargetStatusResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ReportBackToScheduler">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="request" nillable="true"
+                            type="q114:ReportBackStatusRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="ReportBackToSchedulerResponse">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddEmailConfiguration">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q115:AddEmailConfigurationRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddEmailConfigurationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddEmailConfigurationResult" nillable="true"
+                            type="q116:EmailResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SendEmail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q117="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q117:EmailRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SendEmailResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q118="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="SendEmailResult" nillable="true"
+                            type="q118:EmailResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetEmailConfiguration">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetEmailConfigurationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q119="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetEmailConfigurationResult"
+                            nillable="true"
+                            type="q119:GetEmailConfigurationResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetApplicationSettings">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetApplicationSettingsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q120="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetApplicationSettingsResult"
+                            nillable="true"
+                            type="q120:GetApplicationSettingsResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SetApplicationSettings">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q121="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q121:SetApplicationSettingsRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SetApplicationSettingsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q122="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="SetApplicationSettingsResult"
+                            nillable="true"
+                            type="q122:SetApplicationSettingsResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetWatches">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetWatchesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q123="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetWatchesResult" nillable="true"
+                            type="q123:GetWatchersResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetWatch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q124="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q124:GetWatchersRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetWatchResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q125="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="GetWatchResult" nillable="true"
+                            type="q125:GetWatcherResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddWatch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q126="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q126:WatchRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddWatchResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q127="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddWatchResult" nillable="true"
+                            type="q127:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="EditWatch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q128="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q128:WatchRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="EditWatchResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q129="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="EditWatchResult" nillable="true"
+                            type="q129:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteWatch">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q130="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q130:WatchRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteWatchResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q131="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteWatchResult" nillable="true"
+                            type="q131:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddWatchCondition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q132="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q132:WatchConditionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddWatchConditionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q133="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddWatchConditionResult" nillable="true"
+                            type="q133:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UpdateWatchCondition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q134="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q134:WatchConditionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UpdateWatchConditionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q135="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="UpdateWatchConditionResult" nillable="true"
+                            type="q135:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteWatchCondition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q136="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q136:WatchConditionRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteWatchConditionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q137="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteWatchConditionResult" nillable="true"
+                            type="q137:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddWatchTask">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q138="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q138:WatchTaskRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="AddWatchTaskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q139="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="AddWatchTaskResult" nillable="true"
+                            type="q139:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UpdateWatchTask">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q140="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q140:WatchTaskRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UpdateWatchTaskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q141="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="UpdateWatchTaskResult" nillable="true"
+                            type="q141:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteWatchTask">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q142="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="req" nillable="true"
+                            type="q142:WatchTaskRequest"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DeleteWatchTaskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q143="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="DeleteWatchTaskResult" nillable="true"
+                            type="q143:WatchResponse"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetNumberOfBodyPages">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetNumberOfBodyPagesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_GetNumberOfBodyPagesResult" type="xs:int"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetTextFramesOnPage">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="Page" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetTextFramesOnPageResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q144="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Format_GetTextFramesOnPageResult"
+                            nillable="true"
+                            type="q144:ArrayOfTextFrame"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllTextFrames">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllTextFramesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q145="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Format_GetAllTextFramesResult"
+                            nillable="true"
+                            type="q145:ArrayOfTextFrame"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetTextFrameNamesOnPage">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="Page" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetTextFrameNamesOnPageResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q146="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Format_GetTextFrameNamesOnPageResult"
+                            nillable="true"
+                            type="q146:ArrayOfstring"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllTextFrameNames">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllTextFrameNamesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q147="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Format_GetAllTextFrameNamesResult"
+                            nillable="true"
+                            type="q147:ArrayOfstring"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_AddTextFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element xmlns:q148="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="textFrame" nillable="true"
+                            type="q148:TextFrame"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_AddTextFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_AddTextFrameResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetTextFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetTextFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q149="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Format_GetTextFrameResult" nillable="true"
+                            type="q149:TextFrame"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_UpdateTextFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element xmlns:q150="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="textFrame" nillable="true"
+                            type="q150:TextFrame"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_UpdateTextFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_UpdateTextFrameResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_UpdateTextFrames">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element xmlns:q151="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="textFrames" nillable="true"
+                            type="q151:ArrayOfTextFrame"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_UpdateTextFramesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_UpdateTextFramesResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_DeleteTextFrame">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="name" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_DeleteTextFrameResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="Format_DeleteTextFrameResult" type="xs:boolean"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetGraphicFramesOnPage">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="Page" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetGraphicFramesOnPageResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q152="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Format_GetGraphicFramesOnPageResult"
+                            nillable="true"
+                            type="q152:ArrayOfGraphicFrame"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllGraphicFrames">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetAllGraphicFramesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q153="http://schemas.datacontract.org/2004/07/FusionProQueue" minOccurs="0" name="Format_GetAllGraphicFramesResult"
+                            nillable="true"
+                            type="q153:ArrayOfGraphicFrame"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetGraphicFrameNamesOnPage">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="CompositionID" type="xs:int"/>
+                <xs:element minOccurs="0" name="Page" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Format_GetGraphicFrameNamesOnPageResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element xmlns:q154="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Format_GetGraphicFrameNamesOnPageResult"
+                            nillable="true"
+                            type="q154:ArrayOfstring"/>
+                <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

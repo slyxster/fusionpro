@@ -1,127 +1,173 @@
 <?php
-/**
- * This file aims to show you how to use this generated package.
- * In addition, the goal is to show which methods are available and the first needed parameter(s)
- * You have to use an associative array such as:
- * - the key must be a constant beginning with WSDL_ from AbstractSoapClientBase class (each generated ServiceType class extends this class)
- * - the value must be the corresponding key value (each option matches a {@link http://www.php.net/manual/en/soapclient.soapclient.php} option)
- * $options = array(
- * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'fusion_wsdl_rev.xml',
- * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_TRACE => true,
- * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_LOGIN => 'you_secret_login',
- * \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_PASSWORD => 'you_secret_password',
- * );
- * etc...
- */
-require_once '/home/rickpotratz/Desktop/coding/a2z/fusionpro/fusionSDK/vendor/autoload.php';
+
+use EnumType\OutputFormat;
+use ServiceType\_List;
+use ServiceType\Check;
+use ServiceType\Create;
+use ServiceType\Get;
+use ServiceType\Start;
+use StructType\CheckCompositionStatus;
+use StructType\CompositionFilePathURLRequest;
+use StructType\CompositionRequest;
+use StructType\CreateCompositionSession;
+use StructType\FieldInfoRequest;
+use StructType\GetCompositionFileURL;
+use StructType\GetPreviewJPEG_URL;
+use StructType\GetTemplateFields;
+use StructType\GetTemplateFileURL;
+use StructType\JobOptions;
+use StructType\ListGroups;
+use StructType\Preview;
+use StructType\StartCompositionFromSession;
+use StructType\StartCompositionRequest;
+use StructType\TemplateRequest;
+use WsdlToPhp\PackageBase\AbstractSoapClientBase;
+
+require_once './fusionSDK/vendor/autoload.php';
+
 /**
  * Minimal options
  */
 $options = array(
-    \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_URL => 'fusion_wsdl_rev.xml',
- 	\WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_TRACE => true,
-    \WsdlToPhp\PackageBase\AbstractSoapClientBase::WSDL_CLASSMAP => ClassMap::get(),
+    AbstractSoapClientBase::WSDL_URL => 'fusion_wsdl_rev.xml',
+ 	AbstractSoapClientBase::WSDL_TRACE => true,
+    AbstractSoapClientBase::WSDL_CLASSMAP => ClassMap::get(),
 );
+
 
 /**
  * create ServiceTypes
  */
-$list = new \ServiceType\_List($options);
-$get = new \ServiceType\Get($options);
-$create = new \ServiceType\Create($options);
-$start = new \ServiceType\Start($options);
-$check = new \ServiceType\Check($options);
+$lister_service  = new _List($options);
+$getter_service  = new Get($options);
+$creator_service = new Create($options);
+$starter_service = new Start($options);
+$checker_service = new Check($options);
+
 
 /**
  * Call for ListGroups 
  */
-if ($list->ListGroups(new \StructType\ListGroups()) !== false) {
-    $result = $list->getResult();
+echo "GETTING GROUPS: \n";
+if ($lister_service->ListGroups(new ListGroups())) {
+    $result = $lister_service->getResult();
     $groups = $result->ListGroupsResult->Groups->string;
-
-	print_r($groups);
+    foreach ($groups as $g) {
+        echo $g . "\n";
+    }
 } else {
-    print_r($list->getLastError());
+    echo "error \n";
+//    echo $lister_service->getLastError();
 }
 
-$params = new \StructType\TemplateRequest;
-	$params->SetGroupName('Vision');
-	$params->SetTemplateName('VGI_BadgeCard_Fusion');
+/**
+ * Get info for template
+ */
 
-if ($get->GetTemplateFileURL(new \StructType\GetTemplateFileURL($params)) !== false) {
-    $template = $get->getResult();
+echo "REQUESTING TEMPLATE INFO \n";
+$templateRequest = new TemplateRequest();
+$templateRequest->SetGroupName('Vision');
+$templateRequest->SetTemplateName('VGI_BadgeCard_Fusion');
+
+if ($getter_service->GetTemplateFileURL(new GetTemplateFileURL($templateRequest))) {
+    $result = $getter_service->getResult();
+    $template = $result->GetTemplateFileURLResult->Message;
+    echo $template;
 } else {
-    print_r($get->getLastError());
+    echo "error \n";
+//    echo $getter_service->getLastError()[0]->faultstring;
 }
 
-// Grab the fields we need
-$req = new \StructType\FieldInfoRequest;
-	$req->SetGroupName('Vision');
-	$req->SetTemplateName('VGI_BadgeCard_Fusion');
+/**
+ * Grab the fields we need
+ */
 
-if ($get->GetTemplateFields(new \StructType\GetTemplateFields($req)) !== false) {
-	$result = $get->getResult();
-	$fields = $result->GetTemplateFieldsResult->getFieldInfo()->FieldInfo;
+echo "REQUESTING FIELD INFO \n";
 
+$fieldInfoRequest = new FieldInfoRequest();
+$fieldInfoRequest->SetGroupName('Vision');
+$fieldInfoRequest->SetTemplateName('VGI_BadgeCard_Fusion');
+
+if ($getter_service->GetTemplateFields(new GetTemplateFields($fieldInfoRequest))) {
+	$result = $getter_service->getResult();
+	$fields = $result->GetTemplateFieldsResult->FieldInfo;
 	foreach ($fields as $field) {
-		print_r($field->Name);
-			echo "\n";
+		echo $field->Name . "\n";
 	}
 } else {
-    print_r($get->getLastError());
+    echo "error \n";
+//    echo $getter_service->getLastError()[0]->faultstring;
 }
 
-// Start the composition
-$cr = new \StructType\CompositionRequest();
-	$cr->SetGroupName('Vision');
-	$cr->SetTemplateName('VGI_BadgeCard_Fusion');
+/**
+ * Start the composition
+ */
 
-if ($create->CreateCompositionSession(new \StructType\CreateCompositionSession($cr)) !== false) {
-    	$result = $create->getResult();
-	$compositionId = $result->CreateCompositionSessionResult->getCompositionID();
+echo "CREATING COMPOSITION SESSION \n";
+$compositionRequest = new CompositionRequest();
+$compositionRequest->SetGroupName('Vision');
+$compositionRequest->SetTemplateName('VGI_BadgeCard_Fusion');
+$job_options = new JobOptions();
+$job_options->OutputFormat = OutputFormat::VALUE_PDF;
+$compositionRequest->setOptions($job_options);
 
-		print_r($compositionId);
+$compositionId = 0;
+
+if ($creator_service->CreateCompositionSession(new CreateCompositionSession($compositionRequest))) {
+    $result = $creator_service->getResult();
+	$compositionId = $result->CreateCompositionSessionResult->CompositionID;
+	echo 'NEW SESSION COMP ID: '. $compositionId . "\n";
 } else {
 	echo "error \n";
-    print_r($create->getLastError());
+//    echo $creator_service->getLastError()[0]->faultstring;
 }
 
-$loopcount = 0;
+echo "GENERATING PREVIEW... \n";
 
+$preview = new Preview();
+$preview->setTimeoutSeconds(-1);
+$preview->setCompositionID($compositionId);
+$preview->setPageNumber(1);
+$previewResponse = $getter_service->GetPreviewJPEG_URL(new GetPreviewJPEG_URL($preview));
+$result = $getter_service->getResult();
+echo "PREVIEW URL: " . $result->GetPreviewJPEG_URLResult->Output . "\n";
+
+echo "STARTING COMPOSITION SESSION \n";
+
+$startCompositionRequest = new StartCompositionFromSession(new StartCompositionRequest($compositionId));
+$result = null;
+if ($starter_service->StartCompositionFromSession($startCompositionRequest)) {
+    $result = $starter_service->getResult();
+    $server = $result->StartCompositionFromSessionResult->AssignedServer;
+    echo "STARTED: " . $server . "\n";
+} else {
+    print_r($starter_service->getLastError());
+    exit;
+}
 // Loop through until composition job status is done.
-while ($loopcount < 1) {
-	$compreq = new \StructType\StartCompositionRequest();
-	$compreq->SetCompositionID($compositionId);
 
-	if ($start->StartCompositionFromSession(new \StructType\StartCompositionFromSession($compreq)) !== false) {
-    		$result = $start->getResult();
 
-		$preview = new \StructType\Preview();
-		$preview->setTimeoutSeconds(-1);
-		$preview->setCompositionID($compositionId);
-		$preview->setPageNumber(1);
+$loop_count = 0;
 
-		$previewResponse = $get->GetPreviewJPEG_URL(new \StructType\GetPreviewJPEG_URL($preview));
-
-		$filepath = new \StructType\CompositionFilePathURLRequest();
-		$filepath->setCompositionID($compositionId);
-		$status = $check->CheckCompositionStatus(new \StructType\CheckCompositionStatus($filepath));
-		$jobstatus = $status->CheckCompositionStatusResult->getJobStatus();
-			print_r($jobstatus);
-
-		if ($jobstatus == "Done") {
-			$completed = new \StructType\CompositionFilePathURLRequest();
-			$completed->setCompositionID($compositionId);
-			$completed->setType('Output');
-			$completedResponse = $get->GetCompositionFileURL(new \StructType\GetCompositionFileURL($completed));
-
-			print_r($completedResponse);
-
-			$loopcount = 1;
-		}
-	} else {
-    		print_r($start->getLastError());
-	}
+while (true) {
+    $filepath = new CompositionFilePathURLRequest();
+    $filepath->setCompositionID($compositionId);
+    $status = $checker_service->CheckCompositionStatus(new CheckCompositionStatus($filepath));
+    $job_status = $status->CheckCompositionStatusResult->JobStatus;
+    echo "CURR JOB STATUS: " . $job_status . "\n";
+    if ($job_status === \EnumType\JobStatus::VALUE_DONE) {
+        $completed = new CompositionFilePathURLRequest();
+        $completed->setCompositionID($compositionId);
+        $completed->setType(\EnumType\FileType::VALUE_OUTPUT);
+        $result = $getter_service->GetCompositionFileURL(new GetCompositionFileURL($completed));
+        echo "FINAL PATH: " . $result->GetCompositionFileURLResult->Output . "\n";
+        break;
+    }
+    if ($job_status === \EnumType\JobStatus::VALUE_FAILED ||
+            $job_status === \EnumType\JobStatus::VALUE_CANCELLED ||
+            $job_status === \EnumType\JobStatus::VALUE_NONE) {
+       break;
+    }
 }
 
 exit;
